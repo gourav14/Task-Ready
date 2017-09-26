@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.gourav_chawla.taskready.noteDetail"
+    android:orientation="vertical">
+    <EditText
+        android:background="@android:color/holo_blue_light"
+        android:id="@+id/mynote"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:hint="Write your note here !"
+        android:textAlignment="viewStart"
+        android:gravity="start"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DONE"
+        android:layout_marginTop="30dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/note_edit_Llayout"
+    android:background="@android:color/holo_blue_dark"
+    android:gravity="center">
+    <EditText
+        android:id="@+id/noteedit"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:gravity="start"
+        />
+
+</LinearLayout>

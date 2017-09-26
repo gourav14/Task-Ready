@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/noteview"
+    >
+    <android.support.v7.widget.CardView
+        android:backgroundTint="@color/intermediate"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        card_view:cardUseCompatPadding="true"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+   >
+    <TextView
+        android:layout_marginLeft="10sp"
+        android:id="@+id/notetitleview"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <FrameLayout
+        android:layout_marginRight="40sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+        <Button
+            android:id="@+id/editnotebutton"
+            android:layout_marginLeft="10sp"
+            android:background="@android:color/transparent"
+            android:layout_width="40sp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_gravity="center"
+            android:tint="@android:color/white"
+            android:layout_width="40sp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_action_edit"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+        <Button
+            android:layout_marginLeft="10sp"
+            android:background="@android:color/transparent"
+            android:id="@+id/deletenotebutton"
+            android:layout_width="40sp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_gravity="center"
+            android:tint="@android:color/white"
+            android:layout_width="40sp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_action_delete"
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_below="@+id/frame"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+        <Button
+            android:layout_marginLeft="10sp"
+            android:background="@android:color/transparent"
+            android:id="@+id/movebutton"
+            android:layout_width="40sp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:tint="@android:color/white"
+            android:layout_width="40sp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_action_top"
+            android:layout_gravity="center"
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_below="@+id/frame"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+        <Button
+            android:layout_marginLeft="10sp"
+            android:background="@android:color/transparent"
+            android:id="@+id/copy"
+            android:layout_width="40sp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_gravity="center"
+            android:tint="@android:color/white"
+            android:layout_width="40sp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_action_name"
+            />
+    </FrameLayout>
+
+</RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

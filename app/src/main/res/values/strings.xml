@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TaskReady</string>
+    <string name="title_activity_task_list_view">taskListView</string>
+    <string name="action_settings">Settings</string>
+</resources>
